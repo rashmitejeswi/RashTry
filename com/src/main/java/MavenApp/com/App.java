@@ -13,9 +13,9 @@ public class App
         WebDriver driver = new FirefoxDriver();
         driver.get("http://gmail.com");
         driver.manage().window().maximize();
-        driver.findElement(By.id("Email")).sendKeys("bandaryqa");
+        driver.findElement(By.id("Email")).sendKeys("helo");
         driver.findElement(By.id("next")).click();
-        driver.findElement(By.id("Passwd")).sendKeys("Deetya@2012");
+        driver.findElement(By.id("Passwd")).sendKeys("hi");
         driver.findElement(By.id("signIn")).click();
       
 			driver.wait(2000);
